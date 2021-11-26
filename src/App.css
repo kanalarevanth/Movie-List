@@ -1,0 +1,85 @@
+.moviecontainer{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.FavouritesMovie{
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+.movieinputs{
+    margin: auto;
+}
+
+.searchmovie{
+    display:inline-grid;
+    flex-wrap: nowrap;
+    width: 250px;
+    background-color: rgb(228, 222, 222);
+    border: 1px solid rgb(230, 222, 222);
+    border-radius: 5px;
+    padding: 8px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.searchmovie p{
+    font-family:sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight:600;
+}
+
+.searchmovieimage{
+    height: 300px;
+    width: 250px;
+    border-radius: 2px;
+}
+.Favmovieclass{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.NoFavmovieclass{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.favmovielist{
+    display:inline-grid;
+    flex-wrap: nowrap;
+    width: 250px;
+    background-color: rgb(228, 222, 222);
+    border: 1px solid rgb(230, 222, 222);
+    border-radius: 5px;
+    padding: 8px;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.favmovieimage{
+    height: 300px;
+    width: 250px;
+    border-radius: 2px;
+}
+
+.favmovielist p{
+    font-family:sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight:600;
+}
+.rrmovietitle{
+    margin-top: 100px;
+}
+.searchmovie:hover{
+    background-color: grey;
+    transform:scale(0.9);
+    cursor: pointer;
+}
+.favmovielist:hover{
+    background-color: grey;
+    transform:scale(0.9);
+    cursor: pointer;
+}
